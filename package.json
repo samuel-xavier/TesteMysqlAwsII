@@ -1,0 +1,11 @@
+{
+  "name": "TesteMysqlAws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samuel-xavier/TesteMysqlAws.git",
+  "author": "Samuel-Xavier <samueloliveira.xavier@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
