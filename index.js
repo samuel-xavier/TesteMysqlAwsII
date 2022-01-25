@@ -25,3 +25,11 @@ db.connect((err) => {
     }
     console.log("Database conected.");
 });
+
+db.query('SELECT * FROM empresa', function(err, rows, fields){
+    if(!err){
+        console.log('Resultado: ', rows);
+    }else{
+        console.log('Erro ao realizar a consulta...');
+    }
+})
